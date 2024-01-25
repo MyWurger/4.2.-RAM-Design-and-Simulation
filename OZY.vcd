@@ -1,0 +1,95 @@
+$date
+	Tue May 02 15:34:39 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module OZY_testbench $end
+$var wire 21 ! data_out [20:0] $end
+$var reg 1 " Type $end
+$var reg 6 # addr [5:0] $end
+$var reg 21 $ data_in [20:0] $end
+$var reg 1 % we $end
+$scope module dut $end
+$var wire 1 " Type $end
+$var wire 6 & addr [5:0] $end
+$var wire 21 ' data_in [20:0] $end
+$var wire 1 % we $end
+$var reg 21 ( data_out [20:0] $end
+$upscope $end
+$scope task read_mem $end
+$upscope $end
+$scope task write_mem $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx (
+b1101 '
+b101 &
+0%
+b1101 $
+b101 #
+1"
+bx !
+$end
+#1
+1%
+#2
+0%
+#3
+b1101 !
+b1101 (
+0"
+1%
+#5
+0%
+#6
+b1111 $
+b1111 '
+b11000 #
+b11000 &
+1"
+#7
+1%
+#8
+0%
+#9
+b1111 !
+b1111 (
+0"
+1%
+#11
+0%
+#12
+b111111111111111111111 $
+b111111111111111111111 '
+b100000 #
+b100000 &
+1"
+#13
+1%
+#14
+0%
+#15
+b111111111111111111111 !
+b111111111111111111111 (
+0"
+1%
+#17
+0%
+#18
+b10011 $
+b10011 '
+b100001 #
+b100001 &
+1"
+#19
+1%
+#20
+0%
+#21
